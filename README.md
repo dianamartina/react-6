@@ -1,11 +1,9 @@
-## JavaScript Advanced - Curs 5
+React 6
 
-Pentru a rula aceasta etapa (in linie de comanda):
+# Description
 
-#### 1. `git clone https://github.com/razvancir96/react-curs05.git`
+Implementing Bootstrap framework in the project. 
 
-#### 2. `cd react-curs05`
+Adding category products on the home page from the JSON file.
 
-#### 3. `npm install` (posibil sa dureze)
-
-#### 4. `npm start`
+Using Dynamic Routing onclick on the category product to the Category product page.

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 // si un footer.  Momentan, vom vrea ca footer-ul sa contina link catre pagin de About.
 function Footer() {
     return(
-        <div>
+        <div className="footer">
             <Link to='/about'>About</Link>
         </div>
     );

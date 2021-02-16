@@ -6,7 +6,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Category from './pages/Category';
 import Page404 from './pages/Page404';
+import './utils/utility-clases.css';
 
 class App extends React.Component {
   constructor() {
@@ -35,6 +37,7 @@ class App extends React.Component {
           forteaza ruta sa fie exact cea din patch. */}
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
+          <Route path='/category/:categoryName' component={Category}/>
           {/* ATENTIE! Daca utilizatorul navigheaza catre o ruta inexistenta, ii vom afisa pagina de 404.*/}
           {/* Ce vom pune la path? Caracterul '*'! Pentru ca Switch ia rutele in ordine, iar daca nu a gasit nicio ruta valida,
           inseamna ca ORICE ruta a fost introdusa in rest e invalida. Caracterul * tine loc de "orice".*/}

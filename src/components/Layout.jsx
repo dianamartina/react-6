@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 function Layout(props) {
     return(
         <div>
-            <Header/>
+            <Header />
                 {/* Daca intre deschiderea si deschiderea unei componente Layout instantiezi o asta componenta,
                 atunci props.children va reprezenta intreaga componenta pasata lui Layout */}
                 { props.children }
